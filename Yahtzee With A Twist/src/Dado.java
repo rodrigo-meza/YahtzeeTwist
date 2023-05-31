@@ -10,6 +10,7 @@ public abstract class Dado {
     protected ArrayList<Integer> possibleValues = new ArrayList<>();
     protected int xpos,ypos;
     protected final int size = 60;
+    protected boolean held;
     Random rnd = new Random();
     public Dado(int x, int y){
         colors.add("red");
@@ -33,6 +34,7 @@ public abstract class Dado {
         }
         xpos = x;
         ypos = y;
+        held = false;
     }
     public abstract void showSide();
     public void setValue(int val){
