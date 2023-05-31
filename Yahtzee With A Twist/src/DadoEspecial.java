@@ -1,3 +1,3 @@
-public class DadoEspecial {
+public class DadoEspecial extends Dado{
     
 }

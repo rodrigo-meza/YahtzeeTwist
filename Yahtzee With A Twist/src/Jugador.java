@@ -17,7 +17,7 @@ public class Jugador {
     private boolean sStraight=false;
     private boolean lStraight=false;
     private boolean chance=false;
-    private boolean yahtzee;
+    private boolean yahtzee= false;
     Random rnd =new Random();
     public Jugador(String n){
         score = 0;
